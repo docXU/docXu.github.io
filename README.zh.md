@@ -198,7 +198,7 @@ ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
 ga_domain: huangxuan.me
-```
+
 
 #### Customization
 
@@ -229,6 +229,4 @@ There are a number of tasks it performs like minification of the JavaScript, com
 2. 感谢[@BrucZhaoR](https://github.com/BruceZhaoR)的中文翻译 
 
 3. 感谢 Jekyll、Github Pages 和 Bootstrap!
-
-
 
