@@ -3,8 +3,8 @@ title: Matt's Blog
 SEOTitle: 阿伟 | matt's Blog
 header-img: img/home-bg.jpg
 email: 1304924151@qq.com
-description: ""
-keyword: ""
+description: "把生活过的花里胡哨 | 单身狗的快乐博客 | matt xu 的技术操作"
+keyword: "xxw 阿伟 徐雄伟 matt xu docXu"
 url: "http://docXu.github.io"              # your host, for absolute URL
 # baseurl: "/blog"         # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -50,9 +50,7 @@ kramdown:
 # Duoshuo settings
 # duoshuo_username: huxblog
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
-
-
+# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
 # Analytics settings
@@ -73,7 +71,7 @@ sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 5              # A tag will be featured if the size of it is more than this condition value
 
 
 
