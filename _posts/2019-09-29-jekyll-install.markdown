@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Welcome to Matt's Blog"
-subtitle:   " \"Hello World, Hello Blog\""
+title:      "Welcome"
+subtitle:   "喜欢的朋友三连支持一下"
 date:       2019-09-29 19:55:00
 author:     "MattX"
 header-img: "img/post-bg-2015.jpg"
