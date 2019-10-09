@@ -1,12 +1,13 @@
 # Site settings
-title: Matt's Blog
-SEOTitle: 阿伟 | matt's Blog
+title: Matt Blog
+SEOTitle: 阿伟$Blog
 header-img: img/home-bg.jpg
 email: 1304924151@qq.com
 description: "把生活过的花里胡哨 | 单身狗的快乐博客 | matt xu 的技术操作"
 keyword: "xxw 阿伟 徐雄伟 matt xu docXu"
 url: "http://docXu.github.io"              # your host, for absolute URL
-# baseurl: "/blog"         # for example, '/blog' if your blog hosted on 'host/blog'
+#baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
+
 
 # SNS settings
 RSS: false
@@ -17,21 +18,18 @@ github_username:    docXU
 #facebook_username:  huxpro
 
 
-
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-
 
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 plugins: [jekyll-paginate]
-
 
 
 # Markdown settings
@@ -43,14 +41,13 @@ kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
 
-
 # Disqus settings
 #disqus_username: _your_disqus_short_name_
 
-# Duoshuo settings
-# duoshuo_username: huxblog
-# Share component is depend on Comment so we can NOT use share only.
-# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+# Disqus settings
+disqus_username: mattxu
+# Netease settings
+netease_comment: false
 
 
 # Analytics settings
@@ -61,36 +58,42 @@ ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
 ga_domain: huangxuan.me
 
 
-
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "把生活过得花里胡哨"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
+sidebar-about-description: "keep fantasy<br>把生活过得花里胡哨"
+sidebar-avatar: /img/avatar-matt.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 5              # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 0              # A tag will be featured if the size of it is more than this condition value
 
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+# MathJax rendering for layout:page (e.g. post preview)
+page-mathjax: false
 
 
 # Friends
 friends: [
-    {
-        title: "Hux Blog",
-        href: "http://huangxuan.me"
-    },{
-        title: "Foo",
-        href: "#"
-    },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
-        href: "#"
-    }
+{
+  title: "Hux Blog",
+  href: "http://huangxuan.me"
+},{
+  title: "Foo",
+  href: "#"
+},{
+  title: "Bar",
+  href: "#"
+},{
+  title: "Example Friends",
+  href: "#"
+},{
+  title: "It helps SEO",
+  href: "#"
+}
 ]

@@ -5,6 +5,7 @@ subtitle:   " \"设计模式能帮助我们提高写码读码的效率\""
 date:       2019-10-09 15:25:00
 author:     "MattX"
 header-img: "img/design-patterns/bg.png"
+catalog:    true
 tags:
     - 设计模式
     - 读书笔记
@@ -64,7 +65,7 @@ tags:
         2. 创建动态代理类Proxy.newProxyInstance(ClassLoader,Interfaces,InvacationHandler),绑定委托对象
         3. 在委托对象的invoke方法中做本职工作和before和after工作。
         4. 在绑定委托对象的时候也可以做before和after工作（比如AOP的JoinPoint连接点查询并执行）
-        5. 不用添加注解的方式使用AOPhttps://blog.csdn.net/theoffspring/article/details/6209199
+        5. 不用添加注解的方式使用AOP https://blog.csdn.net/theoffspring/article/details/6209199
         6. https://blog.csdn.net/wenbingoon/article/details/22888619
         7. ![动态代理通用类图](/img/design-patterns/dynamic-proxy-UML.png)
         

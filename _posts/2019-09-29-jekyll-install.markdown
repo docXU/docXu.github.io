@@ -33,15 +33,22 @@ jekyll是一个静态网站生成器（可以模板式的将文本转换为html�
 
 我们都知道github提供了个人项目的页面展示功能（github pages），而且还提供的无限空间和个人域名（free~）
 
-jekyll现在是ruby管理的，所以我们搭建ruby环境，在[本地运行jekyll](https://blog.csdn.net/mouday/article/details/79300135)实时预览页面生成后的效果
+首先复制一份代码，建议直接Fork [Hux的项目](https://github.com/Huxpro/huxpro.github.io) （带有很多博文，可以学一下md的语法嘿嘿），不要去做Boilerplate的（已经不维护了，有很多bug）
+
+然后安装jekyll，现在是ruby管理的，所以我们搭建ruby环境，在[本地运行jekyll](https://blog.csdn.net/mouday/article/details/79300135)实时预览页面生成后的效果
 
 > 热部署 jekyll server --watch 
 
-然后根据github的[规范](https://www.jianshu.com/p/b6dfc7c886a9)创建展示项目
+最后根据github的[规范](https://www.jianshu.com/p/b6dfc7c886a9)创建展示项目
 
-确认无误后便git flow推到github。
+在_posts下发布md博客，确认无误后git flow就完事了。
 
-## 预览
+
+## Q&A
+
+1. 推送posts后没看到博文？
+
+    因为jekyll需要重新编译生成静态页面+github展示页本身需要资源分配，所以无法立即看到，稍等片刻后刷新。（等待时间和文章数量有关）
 
 ---
 
